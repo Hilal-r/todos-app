@@ -1,0 +1,61 @@
+.top {
+  background: linear-gradient(to bottom, #e8c88c 0%,#c57d3f 100%);
+  position: relative;
+  z-index: 9;
+
+  .bar {
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.5em 2em 0.5em 1em;
+    align-items: center;
+    h1 {}
+    .toggle-input {
+      font-size: 1em;
+      width: 1.5em;
+      display: block;
+      position: relative;
+      text-align: center;
+      line-height: 1.5em;
+      border: 0;
+      border-radius: 5px;
+      background: linear-gradient(to bottom, #d9dddd 0%,#dfdddd 60%);
+      box-shadow: 0px 0px 1px rgba(0,0,0,0.8);
+      &:after {
+        content: '';
+        display:block;
+        position:absolute;
+        box-sizing: border-box;
+        left: 10%;
+        top: 10%;
+        width: 80%;
+        height: 80%;
+        border: 1px solid #000;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .add-todos {
+    position: absolute;
+    left: 1em;
+    top: 2.1em;
+    width: 60%;
+    z-index: 99;
+    #new_todo {
+      display: block;
+      width: 100%;
+      border: 0;
+      height: 1.8em;
+      box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+      padding: 0 3%;
+      box-sizing: border-box;
+      font-size: 1em;
+
+    }
+  }
+
+}

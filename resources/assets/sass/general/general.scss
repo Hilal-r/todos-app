@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2 {
+  font-size: 1em;
+}
+
+body {
+  font-size: $baseFontSize;
+  background: silver;
+  font-family: arial;
+
+}
+
+main {
+  text-align: right;
+  direction: rtl;
+}
+
+#todoapp {
+  width: 100%;
+  max-width: $appWidth;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+
