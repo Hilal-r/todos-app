@@ -1,11 +1,13 @@
 A basic app for managing todo tasks built using Laravel 4.2 and Ember.js 1.10.0.
 
-First, run composer install
-Check the database settings in app/config/local/database.php and change them if necessary.
-A database called "todos_app" under localhost is expected.
+First, run composer install  
 
-Now run: php artisan migrate --seed
+Check the database settings in app/config/local/database.php and change them if necessary.  
+A database called "todos_app" under localhost is expected.    
 
-For the frontend run:
-npm i
+Now run:  
+php artisan migrate --seed
+
+For the frontend run:  
+npm i  
 npm run prod
