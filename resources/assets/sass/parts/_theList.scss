@@ -26,6 +26,7 @@
         width: 1em;
         text-align: left;
         font-weight:bold;
+        @include verticalCenter();
       }
 
       &.completed {
@@ -75,6 +76,7 @@
         box-sizing: border-box;
         border: 1px solid grey;
         border-radius: 5px;
+        @include verticalCenter();
         input {
           display:none;
         }
