@@ -100,9 +100,9 @@ class Todo extends Eloquent
     private static function badRequest()
     {
         return Response::json(array(
-            'code'      =>  403,
+            'code'      =>  400,
             'message'   =>  'invalid data'
-        ), 403);
+        ), 400);
     }
 
 
