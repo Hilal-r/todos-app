@@ -40,9 +40,9 @@ Route::filter('filterData', function () {
 
     if ($validator->fails()) {
         return Response::json(array(
-            'code' => 403,
+            'code' => 400,
             'message' => $debug ? $messages = $validator->messages() : 'Invalid input'
-        ), 403);
+        ), 400);
     }
 
 
